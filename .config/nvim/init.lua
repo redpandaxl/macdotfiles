@@ -74,7 +74,6 @@ require("lazy").setup({
     },
   },
   init = function()
-    vim.cmd.colorscheme("catppuccin")
     -- Optionally clear background for Normal and NormalNC
     vim.cmd("hi Normal guibg=NONE ctermbg=NONE")
     vim.cmd("hi NormalNC guibg=NONE ctermbg=NONE")
